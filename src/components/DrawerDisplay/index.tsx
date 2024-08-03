@@ -21,7 +21,7 @@ function Component() {
   return (
     <>
       <Button ref={btnRef} colorScheme="teal" onClick={onOpen}>
-        開く
+        ドロアーを開く
       </Button>
       <Drawer
         isOpen={isOpen}

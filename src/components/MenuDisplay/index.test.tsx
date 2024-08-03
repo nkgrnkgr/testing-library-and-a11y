@@ -9,7 +9,7 @@ describe("MenuDisplay", () => {
     renderTestComponent(<MenuDisplay />);
 
     const user = userEvent.setup();
-    const button = screen.getByRole("button", { name: "設定" });
+    const button = screen.getByRole("button", { name: "メニューを開く" });
     await user.click(button);
 
     const menu = await screen.findByRole("menu");

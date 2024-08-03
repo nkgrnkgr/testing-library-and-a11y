@@ -9,7 +9,7 @@ describe("ModalDisplay", () => {
     renderTestComponent(<ModalDisplay />);
 
     const user = userEvent.setup();
-    const button = screen.getByRole("button", { name: "個人設定を開く" });
+    const button = screen.getByRole("button", { name: "モーダルを開く" });
     await user.click(button);
 
     const dialog = await screen.findByRole("dialog");

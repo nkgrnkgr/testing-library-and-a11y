@@ -18,7 +18,7 @@ function Component() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
-      <Button onClick={onOpen}>個人設定を開く</Button>
+      <Button onClick={onOpen}>モーダルを開く</Button>
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
         <ModalContent>

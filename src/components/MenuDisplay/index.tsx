@@ -11,7 +11,7 @@ import { Title } from "../Title";
 function Component() {
   return (
     <Menu>
-      <MenuButton as={Button}>設定</MenuButton>
+      <MenuButton as={Button}>メニューを開く</MenuButton>
       <MenuList>
         <MenuItem>個人設定</MenuItem>
         <MenuItem>購入履歴</MenuItem>
