@@ -5,6 +5,7 @@ import { AlertDialogDisplay } from "./components/AlertDialogDisplay";
 import { AlertDisplay } from "./components/AlertDisplay";
 import { CodeDisplay } from "./components/CodeDisplay";
 import { Contents } from "./components/Contents";
+import { DividerDisplay } from "./components/DividerDisplay";
 import { DrawerDisplay } from "./components/DrawerDisplay";
 import { ImageDisplay } from "./components/ImageDisplay";
 import { Loading } from "./components/Loading";
@@ -21,6 +22,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Provider>
       <Contents>
+        <DividerDisplay />
         <CodeDisplay />
         <ImageDisplay />
         <TooltipDisplay />
