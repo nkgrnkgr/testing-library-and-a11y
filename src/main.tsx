@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { Provider } from "./Provider";
 import { AlertDialogDisplay } from "./components/AlertDialogDisplay";
 import { AlertDisplay } from "./components/AlertDisplay";
+import { BreadcrumbDisplay } from "./components/Breadcrumb";
 import { CodeDisplay } from "./components/CodeDisplay";
 import { Contents } from "./components/Contents";
 import { DividerDisplay } from "./components/DividerDisplay";
@@ -25,6 +26,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Provider>
       <Contents>
+        <BreadcrumbDisplay />
         <TableDisplay />
         <StatDisplay />
         <ListDisplay />
