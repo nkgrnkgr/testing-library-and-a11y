@@ -3,6 +3,7 @@ import { describe, expect, it } from "vitest";
 import { renderTestComponent } from "../../testFunctions/renderTestComponent";
 import { Progressbar } from "./";
 
+// https://developer.mozilla.org/ja/docs/Web/Accessibility/ARIA/Roles/progressbar_role
 describe("Progressbar", () => {
   it("プログレスバーが表示されており、最小、最大、現在の値が設定されている", async () => {
     renderTestComponent(<Progressbar />);
