@@ -1,4 +1,4 @@
-import { screen, within } from "@testing-library/react";
+import { screen, waitFor, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { describe, expect, it } from "vitest";
 import { renderTestComponent } from "../../testFunctions/renderTestComponent";
@@ -36,9 +36,11 @@ describe("AlertDialogDisplay", () => {
     });
     await user.click(cancelButton);
 
-    // ダイアログが閉じていることを確認
-    expect(
-      screen.queryByRole("alertdialog", { name: "削除の確認" }),
-    ).toBeNull();
+    waitFor(() => {
+      // ダイアログが閉じていることを確認
+      expect(
+        screen.queryByRole("alertdialog", { name: "削除の確認" }),
+      ).toBeNull();
+    });
   });
 });

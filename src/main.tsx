@@ -12,12 +12,14 @@ import { PopoverDisplay } from "./components/PopoverDisplay";
 import { Progressbar } from "./components/Progressbar";
 import { TabAndContents } from "./components/TabAndContents";
 import { Toast } from "./components/Toast";
+import { TooltipDisplay } from "./components/Tooltip";
 
 // biome-ignore lint/style/noNonNullAssertion: <explanation>
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Provider>
       <Contents>
+        <TooltipDisplay />
         <PopoverDisplay />
         <ModalDisplay />
         <MenuDisplay />
