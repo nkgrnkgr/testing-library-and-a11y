@@ -19,7 +19,7 @@ function Component() {
   return (
     <>
       <Button colorScheme="red" onClick={onOpen}>
-        削除する
+        警告ダイアログを開く
       </Button>
 
       <AlertDialog

@@ -9,7 +9,7 @@ describe("AlertDialogDisplay", () => {
     renderTestComponent(<AlertDialogDisplay />);
     const user = userEvent.setup();
     const button = screen.getByRole("button", {
-      name: "削除する",
+      name: "警告ダイアログを開く",
     });
     await user.click(button);
 
@@ -23,7 +23,7 @@ describe("AlertDialogDisplay", () => {
     renderTestComponent(<AlertDialogDisplay />);
     const user = userEvent.setup();
     const button = screen.getByRole("button", {
-      name: "削除する",
+      name: "警告ダイアログを開く",
     });
     await user.click(button);
 
