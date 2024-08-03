@@ -14,6 +14,7 @@ import { MenuDisplay } from "./components/MenuDisplay";
 import { ModalDisplay } from "./components/ModalDisplay";
 import { PopoverDisplay } from "./components/PopoverDisplay";
 import { Progressbar } from "./components/Progressbar";
+import { StatDisplay } from "./components/StatDisplay";
 import { TabAndContents } from "./components/TabAndContents";
 import { Toast } from "./components/Toast";
 import { TooltipDisplay } from "./components/Tooltip";
@@ -23,6 +24,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Provider>
       <Contents>
+        <StatDisplay />
         <ListDisplay />
         <DividerDisplay />
         <CodeDisplay />
