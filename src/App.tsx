@@ -1,3 +1,7 @@
 export function App() {
-  return <main>App</main>;
+  return (
+    <main>
+      <h1>This is App</h1>
+    </main>
+  );
 }
