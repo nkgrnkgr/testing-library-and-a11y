@@ -9,6 +9,7 @@ import { Contents } from "./components/Contents";
 import { DividerDisplay } from "./components/DividerDisplay";
 import { DrawerDisplay } from "./components/DrawerDisplay";
 import { ImageDisplay } from "./components/ImageDisplay";
+import { LinkDisplay } from "./components/Link";
 import { ListDisplay } from "./components/ListDisplay";
 import { Loading } from "./components/Loading";
 import { MenuDisplay } from "./components/MenuDisplay";
@@ -26,6 +27,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Provider>
       <Contents>
+        <LinkDisplay />
         <BreadcrumbDisplay />
         <TableDisplay />
         <StatDisplay />
