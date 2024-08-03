@@ -39,7 +39,7 @@ function Component() {
 export function ModalDisplay() {
   return (
     <>
-      <Title>Modal Display</Title>
+      <Title>Modal</Title>
       <Center p={4} w="500px">
         <Component />
       </Center>

@@ -13,7 +13,7 @@ function Component() {
 export function AlertDisplay() {
   return (
     <>
-      <Title>Alert Display</Title>
+      <Title>Alert</Title>
       <Center p={4} w="500px">
         <Component />
       </Center>

@@ -53,7 +53,7 @@ function Component() {
 export function DrawerDisplay() {
   return (
     <>
-      <Title>Drawer Display</Title>
+      <Title>Drawer</Title>
       <Center p={4} w="500px">
         <Component />
       </Center>

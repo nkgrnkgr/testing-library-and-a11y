@@ -53,7 +53,7 @@ function Component() {
 export function AlertDialogDisplay() {
   return (
     <>
-      <Title>Alert Dialog Display</Title>
+      <Title>Alert Dialog</Title>
       <Center p={4} w="500px">
         <Component />
       </Center>

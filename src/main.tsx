@@ -8,6 +8,7 @@ import { DrawerDisplay } from "./components/DrawerDisplay";
 import { Loading } from "./components/Loading";
 import { MenuDisplay } from "./components/MenuDisplay";
 import { ModalDisplay } from "./components/ModalDisplay";
+import { PopoverDisplay } from "./components/PopoverDisplay";
 import { Progressbar } from "./components/Progressbar";
 import { TabAndContents } from "./components/TabAndContents";
 import { Toast } from "./components/Toast";
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Provider>
       <Contents>
+        <PopoverDisplay />
         <ModalDisplay />
         <MenuDisplay />
         <DrawerDisplay />
