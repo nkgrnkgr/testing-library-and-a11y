@@ -6,6 +6,7 @@ import { AlertDisplay } from "./components/AlertDisplay";
 import { Contents } from "./components/Contents";
 import { DrawerDisplay } from "./components/DrawerDisplay";
 import { Loading } from "./components/Loading";
+import { MenuDisplay } from "./components/MenuDisplay";
 import { Progressbar } from "./components/Progressbar";
 import { TabAndContents } from "./components/TabAndContents";
 import { Toast } from "./components/Toast";
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Provider>
       <Contents>
+        <MenuDisplay />
         <DrawerDisplay />
         <AlertDialogDisplay />
         <Toast />
