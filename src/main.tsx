@@ -20,6 +20,7 @@ import { NumberInputDisplay } from "./components/NumberInputDisplay";
 import { PopoverDisplay } from "./components/PopoverDisplay";
 import { Progressbar } from "./components/Progressbar";
 import { RadioDisplay } from "./components/Radio";
+import { SelectDisplay } from "./components/SelectDisplay";
 import { StatDisplay } from "./components/StatDisplay";
 import { TabAndContents } from "./components/TabAndContents";
 import { TableDisplay } from "./components/Table";
@@ -31,6 +32,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Provider>
       <Contents>
+        <SelectDisplay />
         <RadioDisplay />
         <NumberInputDisplay />
         <FormControlDisplay />
