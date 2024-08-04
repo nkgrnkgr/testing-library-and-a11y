@@ -24,6 +24,7 @@ import { SelectDisplay } from "./components/SelectDisplay";
 import { StatDisplay } from "./components/StatDisplay";
 import { TabAndContents } from "./components/TabAndContents";
 import { TableDisplay } from "./components/Table";
+import { TextareaDisplay } from "./components/Textarea";
 import { Toast } from "./components/Toast";
 import { TooltipDisplay } from "./components/Tooltip";
 
@@ -32,6 +33,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Provider>
       <Contents>
+        <TextareaDisplay />
         <SelectDisplay />
         <RadioDisplay />
         <NumberInputDisplay />
