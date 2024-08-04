@@ -5,7 +5,7 @@ import { renderTestComponent } from "../../testFunctions/renderTestComponent";
 import { RadioDisplay } from "./";
 
 describe("Radio", () => {
-  it("Statの内容が表示されること", async () => {
+  it("Radioが正しく動くこと", async () => {
     renderTestComponent(<RadioDisplay />);
     const user = userEvent.setup();
     const radioGroup = screen.getByRole("radiogroup", {
