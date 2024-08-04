@@ -24,7 +24,7 @@ function Component() {
 export function SelectDisplay() {
   return (
     <>
-      <Title>RadioGroup</Title>
+      <Title>Select</Title>
       <Center p={4} w="500px">
         <Component />
       </Center>
