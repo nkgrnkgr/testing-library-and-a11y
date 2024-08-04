@@ -16,6 +16,7 @@ import { ListDisplay } from "./components/ListDisplay";
 import { Loading } from "./components/Loading";
 import { MenuDisplay } from "./components/MenuDisplay";
 import { ModalDisplay } from "./components/ModalDisplay";
+import { NumberInputDisplay } from "./components/NumberInputDisplay";
 import { PopoverDisplay } from "./components/PopoverDisplay";
 import { Progressbar } from "./components/Progressbar";
 import { StatDisplay } from "./components/StatDisplay";
@@ -29,6 +30,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Provider>
       <Contents>
+        <NumberInputDisplay />
         <FormControlDisplay />
         <CheckboxDisplay />
         <LinkDisplay />
