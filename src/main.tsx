@@ -19,6 +19,7 @@ import { ModalDisplay } from "./components/ModalDisplay";
 import { NumberInputDisplay } from "./components/NumberInputDisplay";
 import { PopoverDisplay } from "./components/PopoverDisplay";
 import { Progressbar } from "./components/Progressbar";
+import { RadioDisplay } from "./components/Radio";
 import { StatDisplay } from "./components/StatDisplay";
 import { TabAndContents } from "./components/TabAndContents";
 import { TableDisplay } from "./components/Table";
@@ -30,6 +31,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Provider>
       <Contents>
+        <RadioDisplay />
         <NumberInputDisplay />
         <FormControlDisplay />
         <CheckboxDisplay />
