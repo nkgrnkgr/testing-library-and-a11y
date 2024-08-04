@@ -38,7 +38,7 @@ function Component() {
 export function FormControlDisplay() {
   return (
     <>
-      <Title>Drawer</Title>
+      <Title>FormControl</Title>
       <Center p={4} w="500px">
         <Component />
       </Center>

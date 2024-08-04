@@ -6,7 +6,7 @@ type Props = {
 
 export function Contents({ children }: Props) {
   return (
-    <Stack gap={4} divider={<Divider />}>
+    <Stack m={12} gap={4} divider={<Divider />}>
       {children}
     </Stack>
   );

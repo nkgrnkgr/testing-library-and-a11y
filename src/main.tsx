@@ -7,6 +7,7 @@ import { BreadcrumbDisplay } from "./components/Breadcrumb";
 import { CheckboxDisplay } from "./components/Checkbox";
 import { CodeDisplay } from "./components/CodeDisplay";
 import { Contents } from "./components/Contents";
+import { DisplayedValue } from "./components/DisplayedValue";
 import { DividerDisplay } from "./components/DividerDisplay";
 import { DrawerDisplay } from "./components/DrawerDisplay";
 import { FormControlDisplay } from "./components/FormControlDisplay";
@@ -33,11 +34,11 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Provider>
       <Contents>
+        <FormControlDisplay />
         <TextareaDisplay />
         <SelectDisplay />
         <RadioDisplay />
         <NumberInputDisplay />
-        <FormControlDisplay />
         <CheckboxDisplay />
         <LinkDisplay />
         <BreadcrumbDisplay />
@@ -58,6 +59,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         <Progressbar />
         <TabAndContents />
         <AlertDisplay />
+        <DisplayedValue />
       </Contents>
     </Provider>
   </React.StrictMode>,
